@@ -1,0 +1,26 @@
+body{
+font-family:Arial;
+margin:30px;
+}
+
+input,textarea{
+display:block;
+margin:10px 0;
+padding:5px;
+width:300px;
+}
+
+.tip{
+color:blue;
+display:none;
+}
+
+p{
+margin:3px 0;
+}
+
+#feedback-display div{
+border:1px solid black;
+padding:5px;
+margin-top:5px;
+}

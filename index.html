@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Feedback</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>User Feedback Form</h2>
+
+<form id="form">
+
+<input id="name" placeholder="Name" data-tip="Enter your name">
+<p class="tip"></p>
+<p id="nameError"></p>
+<p id="nameCount">0</p>
+
+<input id="email" placeholder="Email" data-tip="Enter your email">
+<p class="tip"></p>
+<p id="emailError"></p>
+<p id="emailCount">0</p>
+
+<textarea id="comment" placeholder="Comment" data-tip="Write feedback"></textarea>
+<p class="tip"></p>
+<p id="commentError"></p>
+<p id="commentCount">0</p>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<h3>Feedback</h3>
+<div id="feedback-display"></div>
+
+<script src="cp_1.js"></script>
+
+</body>
+</html>
